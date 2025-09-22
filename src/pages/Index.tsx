@@ -55,8 +55,40 @@ const Index = () => {
             </div>
 
             {/* Social Links */}
-            <div className="hero-entrance" style={{ animationDelay: '1.2s' }}>
+            <div className="mb-16 hero-entrance" style={{ animationDelay: '1.2s' }}>
               <SocialLinks />
+            </div>
+
+            {/* Contact Information */}
+            <div className="hero-entrance" style={{ animationDelay: '1.5s' }}>
+              <div className="text-center max-w-md mx-auto">
+                <div className="bg-card/50 border border-border rounded-lg p-6 backdrop-blur-sm">
+                  <h3 className="text-lg font-bold mb-4 text-primary">Brand Collaborations</h3>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    For brand collaborations, connect with above numbers
+                  </p>
+                  <div className="space-y-3">
+                    <div className="flex items-center justify-center gap-2 text-sm">
+                      <span className="text-muted-foreground">📞</span>
+                      <a 
+                        href="tel:9393333361" 
+                        className="text-foreground hover:text-primary transition-colors font-medium"
+                      >
+                        +91 93933 33361
+                      </a>
+                    </div>
+                    <div className="flex items-center justify-center gap-2 text-sm">
+                      <span className="text-muted-foreground">✉️</span>
+                      <a 
+                        href="mailto:Piston@ridersmotoshop.com" 
+                        className="text-foreground hover:text-primary transition-colors font-medium"
+                      >
+                        Piston@ridersmotoshop.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>
