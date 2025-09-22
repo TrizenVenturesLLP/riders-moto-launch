@@ -45,9 +45,9 @@ const Index = () => {
             </div>
 
             {/* Countdown Timer */}
-            <div className="mb-16 hero-entrance" style={{ animationDelay: '0.6s' }}>
+            {/* <div className="mb-16 hero-entrance" style={{ animationDelay: '0.6s' }}>
               <CountdownTimer targetDate={targetDate} />
-            </div>
+            </div> */}
 
             {/* Email Signup */}
             <div className="mb-12 hero-entrance" style={{ animationDelay: '0.9s' }}>
