@@ -2,60 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Riders Moto Shop Design System - Premium motorcycle parts aesthetic 
-Inspired by HT Exhaust with dark themes and bold red accents
+/* Riders Moto Shop Design System - Professional light theme
+Clean, modern aesthetic with professional colors and subtle accents
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    /* Core Background Colors */
-    --background: 220 13% 8%;
-    --foreground: 0 0% 95%;
+    /* Core Background Colors - Light Professional */
+    --background: 0 0% 98%;
+    --foreground: 220 13% 15%;
 
     /* Card Components */
-    --card: 220 13% 10%;
-    --card-foreground: 0 0% 95%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 15%;
 
     /* Popover Components */
-    --popover: 220 13% 10%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 15%;
 
-    /* Primary Brand Colors - Bold Red like HT Exhaust */
-    --primary: 0 84% 55%;
+    /* Primary Brand Colors - Professional Red */
+    --primary: 0 72% 51%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 0 84% 65%;
+    --primary-glow: 0 72% 61%;
 
-    /* Secondary Colors - Silver/Metallic */
-    --secondary: 220 13% 15%;
-    --secondary-foreground: 0 0% 85%;
+    /* Secondary Colors - Clean Gray */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 13% 25%;
 
     /* Muted Colors */
-    --muted: 220 13% 12%;
-    --muted-foreground: 220 9% 55%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 13% 45%;
 
-    /* Accent Colors - Neon Green for CTAs */
-    --accent: 120 100% 50%;
-    --accent-foreground: 220 13% 8%;
+    /* Accent Colors - Professional Blue */
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
 
     /* Destructive Colors */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     /* Border and Input */
-    --border: 220 13% 20%;
-    --input: 220 13% 15%;
-    --ring: 0 84% 55%;
+    --border: 220 13% 91%;
+    --input: 0 0% 100%;
+    --ring: 0 72% 51%;
 
-    /* Premium Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(220 13% 8%), hsl(220 20% 12%));
-    --gradient-accent: linear-gradient(90deg, hsl(0 84% 55%), hsl(15 84% 55%));
-    --gradient-glow: linear-gradient(180deg, hsl(0 84% 55% / 0.1), transparent);
+    /* Professional Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 98%), hsl(220 14% 96%));
+    --gradient-accent: linear-gradient(90deg, hsl(0 72% 51%), hsl(217 91% 60%));
+    --gradient-glow: linear-gradient(180deg, hsl(0 72% 51% / 0.05), transparent);
 
-    /* Shadows with red glow */
-    --shadow-glow: 0 0 40px hsl(0 84% 55% / 0.3);
-    --shadow-intense: 0 0 60px hsl(0 84% 55% / 0.4);
-    --shadow-subtle: 0 4px 20px hsl(220 13% 4% / 0.5);
+    /* Professional Shadows */
+    --shadow-glow: 0 4px 20px hsl(0 72% 51% / 0.15);
+    --shadow-intense: 0 8px 30px hsl(0 72% 51% / 0.20);
+    --shadow-subtle: 0 2px 10px hsl(220 13% 15% / 0.08);
 
     /* Typography Scale */
     --font-hero: 'Orbitron', 'Inter', sans-serif;
@@ -81,7 +81,7 @@ All colors MUST be HSL.
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
-  /* Dark theme is the default for Riders Moto Shop */
+  /* Light theme is the professional choice for Riders Moto Shop */
 }
 
 @layer base {
@@ -142,7 +142,7 @@ All colors MUST be HSL.
   }
 
   .text-glow {
-    text-shadow: 0 0 20px hsl(0 84% 55% / 0.5);
+    text-shadow: 0 2px 8px hsl(0 72% 51% / 0.3);
   }
 }
 

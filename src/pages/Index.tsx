@@ -17,7 +17,7 @@ const Index = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBackground})` }}
       >
-        <div className="absolute inset-0 bg-background/85" />
+        <div className="absolute inset-0 bg-background/60" />
         <div className="absolute inset-0 bg-gradient-glow" />
       </div>
 
@@ -62,7 +62,7 @@ const Index = () => {
             {/* Contact Information */}
             <div className="hero-entrance" style={{ animationDelay: '1.5s' }}>
               <div className="text-center max-w-md mx-auto">
-                <div className="bg-card/50 border border-border rounded-lg p-6 backdrop-blur-sm">
+                <div className="bg-card border border-border rounded-lg p-6 shadow-subtle">
                   <h3 className="text-lg font-bold mb-4 text-primary">Brand Collaborations</h3>
                   <p className="text-sm text-muted-foreground mb-4">
                     For brand collaborations, connect with above numbers
