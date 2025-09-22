@@ -62,6 +62,7 @@ export default {
       fontFamily: {
         hero: ["var(--font-hero)"],
         body: ["var(--font-body)"],
+        headline: ["var(--font-headline)"],
       },
       backgroundImage: {
         'gradient-hero': 'var(--gradient-hero)',

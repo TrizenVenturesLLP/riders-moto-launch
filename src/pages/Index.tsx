@@ -32,15 +32,15 @@ const Index = () => {
             </div>
 
             {/* Hero Text */}
-            <div className="text-center mb-12 space-y-4 hero-entrance" style={{ animationDelay: '0.3s' }}>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-hero font-bold text-glow">
+            <div className="text-center mb-12 space-y-6 hero-entrance" style={{ animationDelay: '0.3s' }}>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold leading-tight text-glow">
                 🚀 <span className="text-primary">LAUNCHING SOON</span>
               </h1>
-              <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              <p className="text-base md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed font-body font-normal">
                 Your ultimate destination for{' '}
-                <span className="text-primary font-semibold">premium bike parts</span>{' '}
+                <span className="text-primary font-medium">premium bike parts</span>{' '}
                 and{' '}
-                <span className="text-accent font-semibold">performance accessories</span>
+                <span className="text-accent font-medium">performance accessories</span>
               </p>
             </div>
 
