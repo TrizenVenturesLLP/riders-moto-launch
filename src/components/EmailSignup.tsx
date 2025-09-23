@@ -67,28 +67,28 @@ const EmailSignup = () => {
 
   if (isSubmitted) {
     return (
-      <div className="text-center max-w-md mx-auto">
-        <div className="mb-6 text-accent">
-          <Check className="w-16 h-16 mx-auto animate-pulse" />
+      <div className="text-center max-w-md mx-auto px-4">
+        <div className="mb-4 sm:mb-6 text-accent">
+          <Check className="w-12 h-12 sm:w-16 sm:h-16 mx-auto animate-pulse" />
         </div>
-        <h3 className="text-xl font-bold mb-2 text-accent">You're All Set! 🚀</h3>
-        <p className="text-muted-foreground mb-4">
+        <h3 className="text-lg sm:text-xl font-bold mb-2 text-accent">You're All Set! 🚀</h3>
+        <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4 leading-relaxed">
           We'll send you an exclusive early access invitation when we launch.
         </p>
-        <p className="text-sm text-muted-foreground">
-          Keep an eye on your inbox for <span className="font-semibold text-foreground">{email}</span>
+        <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
+          Keep an eye on your inbox for <span className="font-semibold text-foreground break-all">{email}</span>
         </p>
       </div>
     );
   }
 
   return (
-    <div className="max-w-md mx-auto">
-      <div className="text-center mb-6">
-        <h3 className="text-xl md:text-2xl font-bold mb-2">
+    <div className="max-w-md mx-auto px-4">
+      <div className="text-center mb-4 sm:mb-6">
+        <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 leading-tight">
           Be the First to Know! 🏁
         </h3>
-        <p className="text-muted-foreground">
+        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
           Get exclusive early access and special launch discounts
         </p>
       </div>
@@ -122,7 +122,7 @@ const EmailSignup = () => {
         </Button>
       </form>
       
-      <p className="text-xs text-muted-foreground text-center mt-4">
+      <p className="text-xs sm:text-sm text-muted-foreground text-center mt-3 sm:mt-4 leading-relaxed">
         We respect your inbox. No spam, just launch updates.
       </p>
     </div>
