@@ -23,20 +23,20 @@ const Index = () => {
 
       {/* Main Content */}
       <main className="relative z-10 min-h-screen flex flex-col">
-        <div className="flex-1 flex flex-col justify-center px-4 py-8 md:py-16">
+        <div className="flex-1 flex flex-col justify-center px-4 sm:px-6 py-8 md:py-16">
           <div className="container mx-auto max-w-6xl">
             
             {/* Logo Section */}
-            <div className="text-center mb-8 hero-entrance">
+            <div className="text-center mb-6 sm:mb-8 hero-entrance">
               <Logo />
             </div>
 
             {/* Hero Text */}
-            <div className="text-center mb-12 space-y-6 hero-entrance" style={{ animationDelay: '0.3s' }}>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold leading-tight text-glow">
+            <div className="text-center mb-8 sm:mb-12 space-y-4 sm:space-y-6 hero-entrance" style={{ animationDelay: '0.3s' }}>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-headline font-bold leading-tight text-glow px-2">
                 🚀 <span className="text-primary">Launching Soon</span>
               </h1>
-              <p className="text-base md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed font-body font-normal">
+              <p className="text-sm sm:text-base md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed font-body font-normal px-4">
                 A one stop shop for all bike accessories
               </p>
             </div>
@@ -47,38 +47,38 @@ const Index = () => {
             </div> */}
 
             {/* Email Signup */}
-            <div className="mb-12 hero-entrance" style={{ animationDelay: '0.9s' }}>
+            <div className="mb-8 sm:mb-12 hero-entrance px-2" style={{ animationDelay: '0.9s' }}>
               <EmailSignup />
             </div>
 
             {/* Social Links */}
-            <div className="mb-16 hero-entrance" style={{ animationDelay: '1.2s' }}>
+            <div className="mb-12 sm:mb-16 hero-entrance" style={{ animationDelay: '1.2s' }}>
               <SocialLinks />
             </div>
 
             {/* Contact Information */}
-            <div className="hero-entrance" style={{ animationDelay: '1.5s' }}>
+            <div className="hero-entrance px-2" style={{ animationDelay: '1.5s' }}>
               <div className="text-center max-w-md mx-auto">
-                <div className="bg-card border border-border rounded-lg p-6 shadow-subtle">
-                  <h3 className="text-lg font-bold mb-4 text-primary">Brand Collaborations</h3>
-                  <p className="text-sm text-muted-foreground mb-4">
+                <div className="bg-card border border-border rounded-lg p-4 sm:p-6 shadow-subtle">
+                  <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 text-primary">Brand Collaborations</h3>
+                  <p className="text-xs sm:text-sm text-muted-foreground mb-3 sm:mb-4">
                     For brand collaborations, connect with above numbers
                   </p>
-                  <div className="space-y-3">
-                    <div className="flex items-center justify-center gap-2 text-sm">
+                  <div className="space-y-2 sm:space-y-3">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 text-xs sm:text-sm">
                       <span className="text-muted-foreground">📞</span>
                       <a 
                         href="tel:9393333361" 
-                        className="text-foreground hover:text-primary transition-colors font-medium"
+                        className="text-foreground hover:text-primary transition-colors font-medium break-all"
                       >
                         +91 93933 33361
                       </a>
                     </div>
-                    <div className="flex items-center justify-center gap-2 text-sm">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 text-xs sm:text-sm">
                       <span className="text-muted-foreground">✉️</span>
                       <a 
                         href="mailto:Piston@ridersmotoshop.com" 
-                        className="text-foreground hover:text-primary transition-colors font-medium"
+                        className="text-foreground hover:text-primary transition-colors font-medium break-all"
                       >
                         Piston@ridersmotoshop.com
                       </a>
@@ -92,20 +92,20 @@ const Index = () => {
         </div>
 
         {/* Footer */}
-        <footer className="relative z-10 py-6 text-center border-t border-border/50">
+        <footer className="relative z-10 py-4 sm:py-6 text-center border-t border-border/50">
           <div className="container mx-auto px-4">
-            <p className="text-sm text-muted-foreground mb-2">
+            <p className="text-xs sm:text-sm text-muted-foreground mb-2">
               © 2024 Riders Moto Shop. All rights reserved.
             </p>
-            <div className="flex justify-center gap-4 text-xs">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 text-xs">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 Privacy Policy
               </a>
-              <span className="text-muted-foreground">|</span>
+              <span className="text-muted-foreground hidden sm:inline">|</span>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 Terms of Service
               </a>
-              <span className="text-muted-foreground">|</span>
+              <span className="text-muted-foreground hidden sm:inline">|</span>
               <a href="mailto:info@ridersmotoshop.com" className="text-muted-foreground hover:text-primary transition-colors">
                 Contact Us
               </a>

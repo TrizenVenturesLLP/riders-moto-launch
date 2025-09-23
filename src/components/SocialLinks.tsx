@@ -26,7 +26,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="flex justify-center gap-4">
+    <div className="flex justify-center gap-3 sm:gap-4">
       {socialLinks.map((social) => {
         const IconComponent = social.icon;
         return (
@@ -36,7 +36,7 @@ const SocialLinks = () => {
             target="_blank"
             rel="noopener noreferrer"
             className={`
-              flex items-center justify-center w-12 h-12 
+              flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 
               bg-secondary rounded-full border border-border
               transition-all duration-300 transform hover:scale-110
               ${social.color} ${social.bgColor}
@@ -44,7 +44,7 @@ const SocialLinks = () => {
             `}
             aria-label={`Follow us on ${social.name}`}
           >
-            <IconComponent className="w-5 h-5" />
+            <IconComponent className="w-4 h-4 sm:w-5 sm:h-5" />
           </a>
         );
       })}
