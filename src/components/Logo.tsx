@@ -16,7 +16,7 @@ const Logo = () => {
           RIDERS MOTO SHOP
         </h1>
         <p className="text-sm text-muted-foreground uppercase tracking-wider">
-          Premium Parts & Performance
+          Driven by Passion Powered by Parts
         </p>
       </div>
     </div>
