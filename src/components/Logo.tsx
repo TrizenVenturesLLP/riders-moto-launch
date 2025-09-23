@@ -2,8 +2,8 @@ import { Zap } from 'lucide-react';
 
 const Logo = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-2 sm:gap-3 mb-6 sm:mb-8">
-      <div className="relative">
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8">
+      <div className="relative mb-2 sm:mb-0">
         <div className="bg-primary p-2 sm:p-3 rounded-lg glow-effect">
           <Zap className="w-6 h-6 sm:w-8 sm:h-8 text-primary-foreground" />
         </div>
