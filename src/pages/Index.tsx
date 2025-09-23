@@ -95,7 +95,7 @@ const Index = () => {
         <footer className="relative z-10 py-4 sm:py-6 text-center border-t border-border/50">
           <div className="container mx-auto px-4">
             <p className="text-xs sm:text-sm text-muted-foreground mb-2">
-              © 2024 Riders Moto Shop. All rights reserved.
+              © 2025 Riders Moto Shop. All rights reserved.
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 text-xs">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
