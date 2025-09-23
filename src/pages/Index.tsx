@@ -34,7 +34,7 @@ const Index = () => {
             {/* Hero Text */}
             <div className="text-center mb-12 space-y-6 hero-entrance" style={{ animationDelay: '0.3s' }}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold leading-tight text-glow">
-                🚀 <span className="text-primary">Driven by Passion Powered by Parts</span>
+                🚀 <span className="text-primary">Launching Soon</span>
               </h1>
               <p className="text-base md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed font-body font-normal">
                 A one stop shop for all bike accessories
